@@ -1,5 +1,3 @@
-import re
-
 
 def humanize(text):
     text = text.replace(" ", "")
