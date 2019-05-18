@@ -26,7 +26,6 @@ def humanize(text):
     if number_str != "":
         parts.append(number_str)
 
-    print(parts)
     result = ""
     for part in parts:
         if part in symbols:
@@ -36,7 +35,6 @@ def humanize(text):
         else:
             result += f"(wrong part: {part}) "
 
-    print("text: ", text)
     return result.strip()
 
 
